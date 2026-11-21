@@ -77,13 +77,6 @@
           "光仁校友教育基金會董事",
           "國軍桃園總醫院少尉工程官"
         ],
-        "bulletin_policies": [
-          "推動房屋結構安全健檢（已完成逾千件）",
-          "導入PSInSAR衛星雷達監測坡地（2000+監測點）",
-          "柳公圳整治與環境改善",
-          "都市更新與老舊建築安全",
-          "大豐國小校舍改建"
-        ],
         "source": "選舉公報＋逐字稿＋新聞報導交叉比對"
       }
     },
@@ -125,14 +118,6 @@
         "experience": [
           "法務部調查局調查官（8年）"
         ],
-        "bulletin_policies": [
-          "建國市場改建",
-          "安坑傳統市場活化",
-          "國中學區升級",
-          "碧潭觀光活化",
-          "AI防詐ATM",
-          "行人通行安全改善"
-        ],
         "source": "選舉公報＋逐字稿交叉比對"
       }
     },
@@ -170,15 +155,6 @@
           "現任新北市中校里里長",
           "曾任台北市議會服務（12年）"
         ],
-        "bulletin_policies": [
-          "電纜地下化",
-          "高地自來水管線延伸",
-          "公墓遷移活化",
-          "寵物公園",
-          "建國游泳池改建",
-          "安坑市場改善",
-          "碧潭風景區再造"
-        ],
         "source": "逐字稿自述，公報學經歷待核"
       }
     },
@@ -213,7 +189,6 @@
         "birthdate": null,
         "education": [],
         "experience": [],
-        "bulletin_policies": [],
         "source": "棄權未出席政見發表會，公報細項待核"
       }
     },
@@ -259,13 +234,6 @@
           "民進黨第21屆全國黨代表",
           "田中央聯合建築師事務所設計師",
           "杜金木建築師事務所設計師"
-        ],
-        "bulletin_policies": [
-          "安一路延伸工程",
-          "安康都市計畫推動",
-          "高地社區自來水改善",
-          "深坑都市計畫擴大",
-          "石碇坪林烏來水源回饋金"
         ],
         "source": "選舉公報＋逐字稿交叉比對"
       }
@@ -315,15 +283,6 @@
           "德音文教基金會董事長",
           "新北市有機運銷合作社執行長"
         ],
-        "bulletin_policies": [
-          "法律諮詢服務",
-          "無人機教育推廣",
-          "參與式預算推動",
-          "有機農業與坪林茶產業",
-          "動物生命教育",
-          "運動中心爭取",
-          "教師權益維護"
-        ],
         "source": "選舉公報（111年＋115年）＋逐字稿交叉比對"
       }
     },
@@ -367,15 +326,6 @@
           "曾獲台灣醫療報導獎",
           "平冤新聞獎",
           "社會光明面新聞報導獎"
-        ],
-        "bulletin_policies": [
-          "顧孩子2.0（托育與教育）",
-          "顧家庭",
-          "顧長輩（敬老卡擴充）",
-          "顧安全",
-          "顧地方",
-          "顧基層",
-          "顧台灣"
         ],
         "source": "選舉公報（111年＋115年）＋逐字稿交叉比對"
       }
@@ -423,13 +373,6 @@
           "二手循環協會理事長",
           "台灣綠黨中執委"
         ],
-        "bulletin_policies": [
-          "邊坡風險地圖建置",
-          "人本交通與通學安全",
-          "AI智慧市政透明",
-          "高齡友善社區共好",
-          "AI青年機會創造"
-        ],
         "source": "選舉公報＋逐字稿＋台灣前進陣線新聞交叉比對"
       }
     },
@@ -473,15 +416,6 @@
           "北科大高教深耕計畫業界講師",
           "新店行道會全職同工"
         ],
-        "bulletin_policies": [
-          "兩岸交流與和平",
-          "自殺防治",
-          "AI智慧城市與數位孿生",
-          "長輩健保免費",
-          "教育文化推動",
-          "警民比改善",
-          "電線桿地下化"
-        ],
         "source": "選舉公報＋逐字稿＋民眾黨新聞交叉比對"
       }
     }
@@ -493,13 +427,7 @@
       "title": "建立邊坡風險地圖",
       "summary": "公開更新日期、排水與邊坡維護窗口、列管進度；配合正式警戒並由專業人員負責風險判斷。",
       "topic": "防災",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -536,9 +464,6 @@
       "summary": "與學校、家長及居民走查通學路線，列出斷點與危險路口，公開改善順序及進度。",
       "topic": "交通",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
         "坪林",
         "烏來"
       ],
@@ -574,8 +499,6 @@
       "summary": "檢討上學、就醫及採買接駁，將往返是否可行納入評估。",
       "topic": "交通",
       "districts": [
-        "深坑",
-        "石碇",
         "坪林",
         "烏來"
       ],
@@ -608,13 +531,7 @@
       "title": "AI市政資料查詢與預算透明",
       "summary": "整理預算、陳情及工程變更，標示來源、日期與負責單位，保護個資。",
       "topic": "數位治理",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -644,13 +561,7 @@
       "title": "保留長者電話與實體服務",
       "summary": "數位服務保留人工協助，減少繁瑣行政並建立防災訊息查證管道。",
       "topic": "長照高齡",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -683,10 +594,7 @@
       "topic": "教育",
       "districts": [
         "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "深坑"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -723,10 +631,7 @@
       "summary": "針對深坑店家、坪林茶產業與烏來文化需求設計工具；部落資料使用尊重自治。",
       "topic": "產業文化",
       "districts": [
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "深坑"
       ],
       "geographic_scope": "district",
       "location_ids": [],
@@ -758,13 +663,7 @@
       "title": "新北雙城論壇",
       "summary": "主張兩岸產業、教育、科技及交通交流。",
       "topic": "兩岸交流",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -795,13 +694,7 @@
       "title": "強化自殺防治與原因研究",
       "summary": "檢視地方防治與統計研究，建立支持網。",
       "topic": "健康社福",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -839,11 +732,7 @@
       "summary": "以數位孿生模擬醫療、救護、交通與教育等城市服務。",
       "topic": "數位治理",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -918,13 +807,7 @@
       "title": "更新AI交通號誌",
       "summary": "以車流辨識與環控改善回堵及離峰等候。",
       "topic": "交通",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -957,13 +840,7 @@
       "title": "市府客製AI與預算分析",
       "summary": "用AI協助表單、行政分流及預算檢視。",
       "topic": "數位治理",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -995,13 +872,7 @@
       "title": "健保補助與長照資源",
       "summary": "加速長者健保免費、增加關懷據點及照顧者補助；檢討特別照顧津貼發放。",
       "topic": "長照高齡",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -1037,13 +908,7 @@
       "title": "恢復校園禮義廉恥牌匾",
       "summary": "主張將牌匾掛回校園。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -1075,13 +940,7 @@
       "title": "反毒教育與科技協勤",
       "summary": "保留反毒宣導並用AI支援掃毒、犯罪熱區追蹤及高風險勤務。",
       "topic": "治安",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -1114,13 +973,7 @@
       "title": "改善警消護福利及教師員額",
       "summary": "重新檢視預算、人力配置與第一線工作保障。",
       "topic": "基層勞動",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -1225,13 +1078,7 @@
       "title": "要求表態翡翠水庫光電及支持公投",
       "summary": "要求其他候選人回應水庫光電，呼籲公投投同意；原稿未交代公投案號。",
       "topic": "能源立場",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "specific_location",
       "location_ids": [
         "loc002"
@@ -1492,13 +1339,7 @@
       "title": "熱點ATM導入AI防詐",
       "summary": "盤點車手提領熱點、與銀行合作部署，定期公布成效並兼顧隱私。",
       "topic": "治安",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -1863,7 +1704,8 @@
       "summary": "納入綠地、停車、活動中心、醫療長照托育及低污染智慧產業。",
       "topic": "都市計畫",
       "districts": [
-        "深坑"
+        "深坑",
+        "石碇"
       ],
       "geographic_scope": "district",
       "location_ids": [],
@@ -1898,8 +1740,7 @@
       "summary": "透過溝通與整體規劃，檢討土地使用及活化。",
       "topic": "都市計畫",
       "districts": [
-        "深坑",
-        "石碇"
+        "深坑"
       ],
       "geographic_scope": "specific_location",
       "location_ids": [
@@ -1973,8 +1814,7 @@
       "topic": "健康社福",
       "districts": [
         "石碇",
-        "坪林",
-        "烏來"
+        "坪林"
       ],
       "geographic_scope": "district",
       "location_ids": [],
@@ -2007,7 +1847,8 @@
       "summary": "結合山林景觀改善接駁、觀光動線與服務設施。",
       "topic": "產業文化",
       "districts": [
-        "石碇"
+        "石碇",
+        "坪林"
       ],
       "geographic_scope": "specific_location",
       "location_ids": [
@@ -2224,13 +2065,7 @@
       "title": "支持市長候選人福利政策",
       "summary": "表示配合蘇巧慧的長輩、青年、育兒與照顧福利；本場未逐項展開。",
       "topic": "健康社福",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -2407,13 +2242,7 @@
       "title": "65歲以上健保費補助",
       "summary": "主張地方推動長者健保費免費。",
       "topic": "長照高齡",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -2446,11 +2275,7 @@
       "summary": "補助65歲以上長者營養品，未提出金額及資格細節。",
       "topic": "長照高齡",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -2591,11 +2416,7 @@
       "summary": "配合李四川政見，主張認養動物享預防篩檢、疫苗及醫療優惠。",
       "topic": "動保",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -2627,11 +2448,7 @@
       "summary": "爭取全市路面更新，特別提及小城里。",
       "topic": "交通",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "specific_location",
       "location_ids": [
@@ -2667,11 +2484,7 @@
       "summary": "檢討容積獎勵與老舊社區更新。",
       "topic": "都市計畫",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -2987,11 +2800,9 @@
       "summary": "提出訓練家庭照顧者並支付照顧報酬的制度方向。",
       "topic": "長照高齡",
       "districts": [
-        "新店",
         "深坑",
         "石碇",
-        "坪林",
-        "烏來"
+        "坪林"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -3027,8 +2838,7 @@
       "districts": [
         "深坑",
         "石碇",
-        "坪林",
-        "烏來"
+        "坪林"
       ],
       "geographic_scope": "district",
       "location_ids": [],
@@ -3061,11 +2871,9 @@
       "summary": "爭取活動中心場租及冷氣費可折抵。",
       "topic": "長照高齡",
       "districts": [
-        "新店",
         "深坑",
         "石碇",
-        "坪林",
-        "烏來"
+        "坪林"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -3098,13 +2906,7 @@
       "title": "教師營養午餐免費",
       "summary": "主張國中小教師午餐比照學童補助。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3168,13 +2970,7 @@
       "title": "兒少照顧2.0",
       "summary": "主張公私幼全面監管、腸病毒疫苗補助、偏鄉午餐品質及0至18歲發展和心理支持。",
       "topic": "兒少家庭",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3210,13 +3006,7 @@
       "title": "擴大臨托夜間假日托育",
       "summary": "建立夜間、假日合作網及育兒友善職場。",
       "topic": "兒少家庭",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3247,13 +3037,7 @@
       "title": "全齡遊戲與無障礙空間",
       "summary": "爭取友善遊戲場及無障礙設施。",
       "topic": "兒少家庭",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3284,13 +3068,7 @@
       "title": "敬老卡1000點全年累計",
       "summary": "主張加碼1000點，全年累計不歸零。",
       "topic": "長照高齡",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3354,13 +3132,7 @@
       "title": "高風險道路與老屋邊坡預警",
       "summary": "優先改善危險路段、老屋與擋土牆邊坡安全檢查。",
       "topic": "防災",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3391,13 +3163,7 @@
       "title": "校園食安示警與性平空間",
       "summary": "建立即時食安示警及性平友善空間2.0。",
       "topic": "兒少家庭",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3582,10 +3348,7 @@
       "topic": "都市計畫",
       "districts": [
         "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "深坑"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -3688,9 +3451,6 @@
       "summary": "補足警消社工醫護裝備人力、健檢與心理支持，建立偏鄉加給與久任制度。",
       "topic": "基層勞動",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
         "坪林",
         "烏來"
       ],
@@ -3726,13 +3486,7 @@
       "title": "一里一套防災計畫",
       "summary": "推動72小時基本醫療不中斷及生活化民防教育。",
       "topic": "防災",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3764,13 +3518,7 @@
       "title": "媒體識讀與國際城市交流",
       "summary": "提升AI假訊息辨識，結合城市交流推廣坪林茶與地方文化。",
       "topic": "數位治理",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3802,13 +3550,7 @@
       "title": "持續法律與心理諮詢",
       "summary": "延續服務處諮詢與案件服務。",
       "topic": "健康社福",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3878,13 +3620,7 @@
       "title": "參與式預算與全齡公園",
       "summary": "以居民提案決定建議款與公共設施方向。",
       "topic": "數位治理",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -3988,13 +3724,7 @@
       "title": "有機蔬菜午餐與食品安全",
       "summary": "維持校園每週有機蔬菜並監督食安。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4026,13 +3756,7 @@
       "title": "動物生命教育",
       "summary": "推廣校園動物教育與認養。",
       "topic": "動保",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4137,11 +3861,7 @@
       "summary": "對認養動物者提供較低醫療負擔，配合李四川政見。",
       "topic": "動保",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -4495,13 +4215,7 @@
       "title": "校事案件先調解及檢舉分流",
       "summary": "主張輕微案件先調解、避免濫訴，並提出匿名檢舉不受理的立場。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4533,13 +4247,7 @@
       "title": "教師免校外交通導護",
       "summary": "改由跨局處協調義交、警力及科技執法。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4570,13 +4278,7 @@
       "title": "教師假日出勤與代課支援",
       "summary": "編列加班費，學校協助代課安排。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4607,13 +4309,7 @@
       "title": "逐年降低班級人數及提高正式員額",
       "summary": "國小朝25人、國中26人方向，逐步提高正式教師編制。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4646,13 +4342,7 @@
       "title": "提高課後照顧鐘點費與設服務上限",
       "summary": "提出一般時段480元、晚間六點後約700元，並限制幼教課後照顧服務時間。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4685,13 +4375,7 @@
       "title": "提高教師健檢與教師節獎金",
       "summary": "健檢補助主張比照臺北分齡標準，教師節獎金由自述1000元提高至2000元。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -4724,11 +4408,7 @@
       "summary": "延續技師協作之房屋安全諮詢；非承諾遠距取代正式結構鑑定。",
       "topic": "防災",
       "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
+        "新店"
       ],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
@@ -4995,13 +4675,7 @@
       "title": "加碼第二胎與托育服務",
       "summary": "增加二胎補助，強化延托、臨托與雙薪家庭彈性協助。",
       "topic": "兒少家庭",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -5031,13 +4705,7 @@
       "title": "橋梁擋土牆與坡地資料庫",
       "summary": "定期科技檢測、建立坡地安全資料庫，促請中央修法增設坡地社區專章。",
       "topic": "防災",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",
@@ -5070,13 +4738,7 @@
       "title": "升級老人居家緊急通報",
       "summary": "整合科技設備、119、醫療及社福，提高緊急通報效率。",
       "topic": "長照高齡",
-      "districts": [
-        "新店",
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "future_proposal",

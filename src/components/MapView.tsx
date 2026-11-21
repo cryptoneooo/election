@@ -12,14 +12,28 @@ import {
 import { DISTRICTS, TOPIC_ICONS, getPartyCode } from '@/lib/types';
 import districtGeoJSON from '@/data/districts.geojson.json';
 
-// District approximate centers for map view
-const DISTRICT_CENTERS: Record<string, [number, number]> = {
-  '新店': [24.9677, 121.5419],
-  '深坑': [25.0025, 121.6155],
-  '石碇': [24.9916, 121.6587],
-  '坪林': [24.9372, 121.7111],
-  '烏來': [24.8654, 121.5505],
-};
+// Compute district centers from actual GeoJSON centroids
+function computeCentroid(coords: number[][][]): [number, number] {
+  let totalLat = 0, totalLng = 0, count = 0;
+  for (const ring of coords) {
+    for (const [lng, lat] of ring) {
+      totalLat += lat;
+      totalLng += lng;
+      count++;
+    }
+  }
+  return [totalLat / count, totalLng / count];
+}
+
+const DISTRICT_CENTERS: Record<string, [number, number]> = {};
+for (const feature of (districtGeoJSON as any).features) {
+  const name = feature.properties?.name;
+  if (!name) continue;
+  const coords = feature.geometry.type === 'MultiPolygon'
+    ? feature.geometry.coordinates.flat()
+    : feature.geometry.coordinates;
+  DISTRICT_CENTERS[name] = computeCentroid(coords);
+}
 
 const DISTRICT_COLORS: Record<string, string> = {
   '新店': '#e67e22',
