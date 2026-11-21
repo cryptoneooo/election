@@ -430,7 +430,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -463,13 +462,9 @@
       "title": "通學路線現勘與危險路口改善",
       "summary": "與學校、家長及居民走查通學路線，列出斷點與危險路口，公開改善順序及進度。",
       "topic": "交通",
-      "districts": [
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -504,7 +499,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -534,7 +528,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -564,7 +557,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -592,13 +584,9 @@
       "title": "擴大社區AI及青年學習",
       "summary": "連結長者與青年課程、在地練習機會，檢驗科技採購是否落實服務。",
       "topic": "教育",
-      "districts": [
-        "新店",
-        "深坑"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -635,7 +623,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -666,7 +653,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -697,7 +683,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -734,9 +719,8 @@
       "districts": [
         "新店"
       ],
-      "geographic_scope": "constituency_or_citywide",
+      "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -760,7 +744,7 @@
         "fc09_07",
         "fc09_08"
       ],
-      "map_display": "nonspatial_policy_panel"
+      "map_display": "district_overlay_after_boundary_loaded"
     },
     {
       "id": "p09_04",
@@ -775,7 +759,6 @@
       "location_ids": [
         "loc001"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -810,7 +793,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -843,7 +825,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -875,7 +856,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -911,7 +891,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -943,7 +922,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -976,7 +954,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1012,7 +989,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1045,12 +1021,9 @@
       "title": "高地自來水議題",
       "summary": "提出高地社區用水需求，未說明本場具體工程或接管方案。",
       "topic": "水務",
-      "districts": [
-        "新店"
-      ],
-      "geographic_scope": "district",
+      "districts": [],
+      "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1070,7 +1043,7 @@
       "fact_check_ids": [
         "fc09_22"
       ],
-      "map_display": "district_overlay_after_boundary_loaded"
+      "map_display": "nonspatial_policy_panel"
     },
     {
       "id": "p09_13",
@@ -1079,11 +1052,10 @@
       "summary": "要求其他候選人回應水庫光電，呼籲公投投同意；原稿未交代公投案號。",
       "topic": "能源立場",
       "districts": [],
-      "geographic_scope": "specific_location",
+      "geographic_scope": "constituency_or_citywide",
       "location_ids": [
         "loc002"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1105,7 +1077,7 @@
         "fc09_22",
         "fc09_23"
       ],
-      "map_display": "verified_reference_or_pending_geocode"
+      "map_display": "nonspatial_policy_panel"
     },
     {
       "id": "p02_01",
@@ -1121,7 +1093,6 @@
         "loc003",
         "loc004"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1159,7 +1130,6 @@
       "location_ids": [
         "loc005"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1196,7 +1166,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1237,7 +1206,6 @@
         "loc006",
         "loc007"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1273,7 +1241,6 @@
       "location_ids": [
         "loc008"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1310,7 +1277,6 @@
       "location_ids": [
         "loc008"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1342,7 +1308,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1383,7 +1348,6 @@
       "location_ids": [
         "loc009"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1420,7 +1384,6 @@
       "location_ids": [
         "loc010"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1457,7 +1420,6 @@
       "location_ids": [
         "loc011"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1494,7 +1456,6 @@
       "location_ids": [
         "loc012"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1531,7 +1492,6 @@
       "location_ids": [
         "loc013"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1569,7 +1529,6 @@
         "loc014",
         "loc015"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1605,7 +1564,6 @@
       "location_ids": [
         "loc001"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1639,7 +1597,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1675,7 +1632,6 @@
         "loc016",
         "loc017"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1704,12 +1660,10 @@
       "summary": "納入綠地、停車、活動中心、醫療長照托育及低污染智慧產業。",
       "topic": "都市計畫",
       "districts": [
-        "深坑",
-        "石碇"
+        "深坑"
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1740,14 +1694,14 @@
       "summary": "透過溝通與整體規劃，檢討土地使用及活化。",
       "topic": "都市計畫",
       "districts": [
-        "深坑"
+        "深坑",
+        "石碇"
       ],
       "geographic_scope": "specific_location",
       "location_ids": [
         "loc018",
         "loc019"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1782,7 +1736,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1814,15 +1767,17 @@
       "topic": "健康社福",
       "districts": [
         "石碇",
-        "坪林"
+        "坪林",
+        "烏來"
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
       "transcript_paragraphs": [
+        174,
+        176,
         178
       ],
       "timecode": null,
@@ -1848,14 +1803,14 @@
       "topic": "產業文化",
       "districts": [
         "石碇",
-        "坪林"
+        "坪林",
+        "烏來"
       ],
       "geographic_scope": "specific_location",
       "location_ids": [
         "loc020",
         "loc021"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1890,7 +1845,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1928,7 +1882,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -1994,14 +1947,9 @@
       "title": "水源特定區資材室措施",
       "summary": "主張主要及細部計畫分離，讓200平方公尺資材室措施先行，追蹤落實。",
       "topic": "都市計畫",
-      "districts": [
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
-      "geographic_scope": "district",
+      "districts": [],
+      "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2021,7 +1969,7 @@
       "fact_check_ids": [
         "fc05_10"
       ],
-      "map_display": "district_overlay_after_boundary_loaded"
+      "map_display": "nonspatial_policy_panel"
     },
     {
       "id": "p05_14",
@@ -2036,9 +1984,8 @@
         "坪林",
         "烏來"
       ],
-      "geographic_scope": "constituency_or_citywide",
+      "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2057,7 +2004,7 @@
       },
       "implementation_note": "發言提出的政策方向；未提供完整預算、法定程序及執行期程。",
       "fact_check_ids": [],
-      "map_display": "nonspatial_policy_panel"
+      "map_display": "district_overlay_after_boundary_loaded"
     },
     {
       "id": "p05_15",
@@ -2068,7 +2015,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2105,7 +2051,6 @@
       "location_ids": [
         "loc022"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2140,7 +2085,6 @@
         "loc024",
         "loc025"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2177,7 +2121,6 @@
         "loc027",
         "loc028"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2212,7 +2155,6 @@
       "location_ids": [
         "loc029"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2245,7 +2187,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2274,12 +2215,9 @@
       "title": "長者營養品補助",
       "summary": "補助65歲以上長者營養品，未提出金額及資格細節。",
       "topic": "長照高齡",
-      "districts": [
-        "新店"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2316,7 +2254,6 @@
       "location_ids": [
         "loc030"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2351,7 +2288,6 @@
       "location_ids": [
         "loc031"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2387,9 +2323,8 @@
         "坪林",
         "烏來"
       ],
-      "geographic_scope": "constituency_or_citywide",
+      "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2407,7 +2342,7 @@
       },
       "implementation_note": "發言提出的政策方向；未提供完整預算、法定程序及執行期程。",
       "fact_check_ids": [],
-      "map_display": "nonspatial_policy_panel"
+      "map_display": "district_overlay_after_boundary_loaded"
     },
     {
       "id": "p03_10",
@@ -2415,12 +2350,9 @@
       "title": "新北市立動物醫院",
       "summary": "配合李四川政見，主張認養動物享預防篩檢、疫苗及醫療優惠。",
       "topic": "動保",
-      "districts": [
-        "新店"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2447,14 +2379,11 @@
       "title": "道路柏油重鋪",
       "summary": "爭取全市路面更新，特別提及小城里。",
       "topic": "交通",
-      "districts": [
-        "新店"
-      ],
-      "geographic_scope": "specific_location",
+      "districts": [],
+      "geographic_scope": "constituency_or_citywide",
       "location_ids": [
         "loc032"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2475,7 +2404,7 @@
       "fact_check_ids": [
         "fc03_08"
       ],
-      "map_display": "verified_reference_or_pending_geocode"
+      "map_display": "nonspatial_policy_panel"
     },
     {
       "id": "p03_12",
@@ -2483,12 +2412,9 @@
       "title": "放寬容積獎勵加速都更",
       "summary": "檢討容積獎勵與老舊社區更新。",
       "topic": "都市計畫",
-      "districts": [
-        "新店"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2527,7 +2453,6 @@
         "loc004",
         "loc033"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2564,7 +2489,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2597,7 +2521,6 @@
       "location_ids": [
         "loc034"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2633,7 +2556,6 @@
         "loc035",
         "loc036"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2671,7 +2593,6 @@
       "location_ids": [
         "loc037"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2707,7 +2628,6 @@
       "location_ids": [
         "loc038"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2740,7 +2660,6 @@
       "location_ids": [
         "loc039"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2773,7 +2692,6 @@
       "location_ids": [
         "loc008"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2799,14 +2717,9 @@
       "title": "參考IHSS支持家庭照顧者",
       "summary": "提出訓練家庭照顧者並支付照顧報酬的制度方向。",
       "topic": "長照高齡",
-      "districts": [
-        "深坑",
-        "石碇",
-        "坪林"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2842,7 +2755,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2870,14 +2782,9 @@
       "title": "敬老卡擴大折抵",
       "summary": "爭取活動中心場租及冷氣費可折抵。",
       "topic": "長照高齡",
-      "districts": [
-        "深坑",
-        "石碇",
-        "坪林"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2909,7 +2816,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2943,7 +2849,6 @@
         "loc040",
         "loc041"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -2973,7 +2878,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3009,7 +2913,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3040,7 +2943,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3071,7 +2973,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3098,15 +2999,9 @@
       "title": "偏鄉就醫接送及日照喘息",
       "summary": "整合敬老卡、接送車與復康巴士，強化日照及喘息服務。",
       "topic": "長照高齡",
-      "districts": [
-        "深坑",
-        "石碇",
-        "坪林",
-        "烏來"
-      ],
-      "geographic_scope": "district",
+      "districts": [],
+      "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3124,7 +3019,7 @@
       },
       "implementation_note": "發言提出的政策方向；未提供完整預算、法定程序及執行期程。",
       "fact_check_ids": [],
-      "map_display": "district_overlay_after_boundary_loaded"
+      "map_display": "nonspatial_policy_panel"
     },
     {
       "id": "p07_06",
@@ -3135,7 +3030,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3166,7 +3060,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3346,13 +3239,9 @@
       "title": "加速都更危老",
       "summary": "推動老舊住宅更新。",
       "topic": "都市計畫",
-      "districts": [
-        "新店",
-        "深坑"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3389,7 +3278,6 @@
       "location_ids": [
         "loc034"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3421,7 +3309,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3450,13 +3337,9 @@
       "title": "基層人力與偏鄉留任",
       "summary": "補足警消社工醫護裝備人力、健檢與心理支持，建立偏鄉加給與久任制度。",
       "topic": "基層勞動",
-      "districts": [
-        "坪林",
-        "烏來"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3489,7 +3372,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3521,7 +3403,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3553,7 +3434,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3590,7 +3470,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3623,7 +3502,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3694,7 +3572,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3727,7 +3604,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3759,7 +3635,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3860,12 +3735,9 @@
       "title": "市立動保醫院",
       "summary": "對認養動物者提供較低醫療負擔，配合李四川政見。",
       "topic": "動保",
-      "districts": [
-        "新店"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -3938,7 +3810,6 @@
       "location_ids": [
         "loc050"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4048,7 +3919,6 @@
         "loc053",
         "loc054"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4082,7 +3952,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4117,7 +3986,6 @@
       "location_ids": [
         "loc042"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4150,7 +4018,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4218,7 +4085,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4250,7 +4116,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4281,7 +4146,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4312,7 +4176,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4345,7 +4208,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4378,7 +4240,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4407,9 +4268,7 @@
       "title": "持續房屋結構健檢",
       "summary": "延續技師協作之房屋安全諮詢；非承諾遠距取代正式結構鑑定。",
       "topic": "防災",
-      "districts": [
-        "新店"
-      ],
+      "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
       "stage": "claimed_ongoing",
@@ -4450,7 +4309,6 @@
       "location_ids": [
         "loc034"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4606,7 +4464,6 @@
       ],
       "geographic_scope": "district",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4645,7 +4502,6 @@
         "loc038",
         "loc052"
       ],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4678,7 +4534,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4708,7 +4563,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -4741,7 +4595,6 @@
       "districts": [],
       "geographic_scope": "constituency_or_citywide",
       "location_ids": [],
-      "stage": "future_proposal",
       "source_ids": [
         "T1"
       ],
@@ -8692,18 +8545,6 @@
       "district": "新店",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p01_01",
-        "p01_02",
-        "p01_03",
-        "p01_04",
-        "p01_05",
-        "p01_06",
-        "p01_07",
-        "p01_08",
-        "p01_09",
-        "p01_10"
-      ],
-      "specific_policy_ids": [
         "p01_02",
         "p01_03",
         "p01_04",
@@ -8711,59 +8552,46 @@
         "p01_06",
         "p01_07"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p01_02",
+        "p01_03",
+        "p01_04",
+        "p01_05",
+        "p01_07"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c01",
       "district": "深坑",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p01_01",
-        "p01_08",
-        "p01_09",
-        "p01_10"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c01",
       "district": "石碇",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p01_01",
-        "p01_08",
-        "p01_09",
-        "p01_10"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c01",
       "district": "坪林",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p01_01",
-        "p01_08",
-        "p01_09",
-        "p01_10"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c01",
       "district": "烏來",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p01_01",
-        "p01_08",
-        "p01_09",
-        "p01_10"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c02",
@@ -8776,7 +8604,6 @@
         "p02_04",
         "p02_05",
         "p02_06",
-        "p02_07",
         "p02_08",
         "p02_09",
         "p02_10",
@@ -8786,7 +8613,6 @@
       "specific_policy_ids": [
         "p02_01",
         "p02_02",
-        "p02_03",
         "p02_04",
         "p02_05",
         "p02_06",
@@ -8796,47 +8622,39 @@
         "p02_11",
         "p02_12"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c02",
       "district": "深坑",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p02_07"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c02",
       "district": "石碇",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p02_07"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c02",
       "district": "坪林",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p02_07"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c02",
       "district": "烏來",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p02_07"
-      ],
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c03",
@@ -8847,14 +8665,9 @@
         "p03_02",
         "p03_03",
         "p03_04",
-        "p03_05",
-        "p03_06",
         "p03_07",
         "p03_08",
         "p03_09",
-        "p03_10",
-        "p03_11",
-        "p03_12",
         "p03_13",
         "p03_15",
         "p03_16",
@@ -8862,9 +8675,6 @@
         "p03_18",
         "p03_19",
         "p03_20",
-        "p03_21",
-        "p03_23",
-        "p03_24",
         "p03_25"
       ],
       "specific_policy_ids": [
@@ -8874,7 +8684,6 @@
         "p03_04",
         "p03_07",
         "p03_08",
-        "p03_11",
         "p03_13",
         "p03_15",
         "p03_16",
@@ -8884,7 +8693,7 @@
         "p03_20",
         "p03_25"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c03",
@@ -8892,27 +8701,16 @@
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
         "p03_01",
-        "p03_05",
-        "p03_06",
         "p03_09",
-        "p03_10",
-        "p03_11",
-        "p03_12",
-        "p03_14",
-        "p03_17",
-        "p03_21",
-        "p03_22",
-        "p03_23",
-        "p03_24"
-      ],
-      "specific_policy_ids": [
-        "p03_01",
-        "p03_11",
         "p03_14",
         "p03_17",
         "p03_22"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p03_01",
+        "p03_17"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c03",
@@ -8920,27 +8718,16 @@
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
         "p03_01",
-        "p03_05",
-        "p03_06",
         "p03_09",
-        "p03_10",
-        "p03_11",
-        "p03_12",
-        "p03_14",
-        "p03_17",
-        "p03_21",
-        "p03_22",
-        "p03_23",
-        "p03_24"
-      ],
-      "specific_policy_ids": [
-        "p03_01",
-        "p03_11",
         "p03_14",
         "p03_17",
         "p03_22"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p03_01",
+        "p03_17"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c03",
@@ -8948,27 +8735,16 @@
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
         "p03_01",
-        "p03_05",
-        "p03_06",
         "p03_09",
-        "p03_10",
-        "p03_11",
-        "p03_12",
-        "p03_14",
-        "p03_17",
-        "p03_21",
-        "p03_22",
-        "p03_23",
-        "p03_24"
-      ],
-      "specific_policy_ids": [
-        "p03_01",
-        "p03_11",
         "p03_14",
         "p03_17",
         "p03_22"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p03_01",
+        "p03_17"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c03",
@@ -8976,67 +8752,55 @@
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
         "p03_01",
-        "p03_05",
-        "p03_06",
         "p03_09",
-        "p03_10",
-        "p03_11",
-        "p03_12",
         "p03_14",
-        "p03_17",
-        "p03_21",
-        "p03_22",
-        "p03_23",
-        "p03_24"
+        "p03_17"
       ],
       "specific_policy_ids": [
         "p03_01",
-        "p03_11",
-        "p03_14",
-        "p03_17",
-        "p03_22"
+        "p03_17"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c04",
       "district": "新店",
-      "event_policy": "無",
+      "event_policy": "本場未明確提及該區政策",
       "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c04",
       "district": "深坑",
-      "event_policy": "無",
+      "event_policy": "本場未明確提及該區政策",
       "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c04",
       "district": "石碇",
-      "event_policy": "無",
+      "event_policy": "本場未明確提及該區政策",
       "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c04",
       "district": "坪林",
-      "event_policy": "無",
+      "event_policy": "本場未明確提及該區政策",
       "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c04",
       "district": "烏來",
-      "event_policy": "無",
+      "event_policy": "本場未明確提及該區政策",
       "policy_ids": [],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c05",
@@ -9048,17 +8812,14 @@
         "p05_03",
         "p05_04",
         "p05_12",
-        "p05_14",
-        "p05_15"
+        "p05_14"
       ],
       "specific_policy_ids": [
         "p05_01",
         "p05_02",
-        "p05_03",
-        "p05_04",
-        "p05_12"
+        "p05_04"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c05",
@@ -9067,14 +8828,12 @@
       "policy_ids": [
         "p05_05",
         "p05_06",
-        "p05_14",
-        "p05_15"
+        "p05_14"
       ],
       "specific_policy_ids": [
-        "p05_05",
         "p05_06"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c05",
@@ -9085,18 +8844,13 @@
         "p05_07",
         "p05_08",
         "p05_09",
-        "p05_13",
-        "p05_14",
-        "p05_15"
+        "p05_14"
       ],
       "specific_policy_ids": [
         "p05_06",
-        "p05_07",
-        "p05_08",
-        "p05_09",
-        "p05_13"
+        "p05_09"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c05",
@@ -9105,20 +8859,15 @@
       "policy_ids": [
         "p05_07",
         "p05_08",
+        "p05_09",
         "p05_10",
         "p05_12",
-        "p05_13",
-        "p05_14",
-        "p05_15"
+        "p05_14"
       ],
       "specific_policy_ids": [
-        "p05_07",
-        "p05_08",
-        "p05_10",
-        "p05_12",
-        "p05_13"
+        "p05_09"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c05",
@@ -9127,47 +8876,20 @@
       "policy_ids": [
         "p05_07",
         "p05_08",
+        "p05_09",
         "p05_11",
-        "p05_13",
-        "p05_14",
-        "p05_15"
+        "p05_14"
       ],
       "specific_policy_ids": [
-        "p05_07",
-        "p05_08",
-        "p05_11",
-        "p05_13"
+        "p05_09"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c06",
       "district": "新店",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p06_01",
-        "p06_03",
-        "p06_04",
-        "p06_06",
-        "p06_07",
-        "p06_08",
-        "p06_09",
-        "p06_10",
-        "p06_11",
-        "p06_12",
-        "p06_13",
-        "p06_14",
-        "p06_15",
-        "p06_16",
-        "p06_17",
-        "p06_20",
-        "p06_21",
-        "p06_22",
-        "p06_23",
-        "p06_24",
-        "p06_25"
-      ],
-      "specific_policy_ids": [
         "p06_04",
         "p06_08",
         "p06_09",
@@ -9179,121 +8901,71 @@
         "p06_16",
         "p06_17"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p06_04",
+        "p06_08",
+        "p06_09",
+        "p06_11",
+        "p06_12",
+        "p06_13",
+        "p06_14",
+        "p06_15",
+        "p06_17"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c06",
       "district": "深坑",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p06_01",
-        "p06_03",
-        "p06_06",
-        "p06_07",
-        "p06_10",
-        "p06_18",
-        "p06_19",
-        "p06_20",
-        "p06_21",
-        "p06_22",
-        "p06_23",
-        "p06_24",
-        "p06_25"
-      ],
-      "specific_policy_ids": [
         "p06_18",
         "p06_19"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p06_19"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c06",
       "district": "石碇",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p06_01",
-        "p06_02",
-        "p06_03",
-        "p06_06",
-        "p06_07",
-        "p06_10",
-        "p06_20",
-        "p06_21",
-        "p06_22",
-        "p06_23",
-        "p06_24",
-        "p06_25"
-      ],
-      "specific_policy_ids": [
         "p06_02"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c06",
       "district": "坪林",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p06_01",
-        "p06_03",
-        "p06_05",
-        "p06_06",
-        "p06_07",
-        "p06_10",
-        "p06_20",
-        "p06_21",
-        "p06_22",
-        "p06_23",
-        "p06_24",
-        "p06_25"
-      ],
-      "specific_policy_ids": [
         "p06_05"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c06",
       "district": "烏來",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p06_01",
-        "p06_02",
-        "p06_03",
-        "p06_06",
-        "p06_07",
-        "p06_10",
-        "p06_20",
-        "p06_21",
-        "p06_22",
-        "p06_23",
-        "p06_24",
-        "p06_25"
-      ],
-      "specific_policy_ids": [
         "p06_02"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c07",
       "district": "新店",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p07_01",
-        "p07_02",
-        "p07_03",
-        "p07_04",
-        "p07_06",
-        "p07_07",
         "p07_08",
         "p07_09",
         "p07_11",
-        "p07_12",
-        "p07_13",
-        "p07_15",
-        "p07_16",
-        "p07_17"
+        "p07_13"
       ],
       "specific_policy_ids": [
         "p07_08",
@@ -9301,302 +8973,139 @@
         "p07_11",
         "p07_13"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c07",
       "district": "深坑",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p07_01",
-        "p07_02",
-        "p07_03",
-        "p07_04",
-        "p07_05",
-        "p07_06",
-        "p07_07",
-        "p07_10",
-        "p07_12",
-        "p07_15",
-        "p07_16",
-        "p07_17"
-      ],
-      "specific_policy_ids": [
-        "p07_05",
         "p07_10"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [
+        "p07_10"
+      ],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c07",
       "district": "石碇",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p07_01",
-        "p07_02",
-        "p07_03",
-        "p07_04",
-        "p07_05",
-        "p07_06",
-        "p07_07",
-        "p07_12",
-        "p07_15",
-        "p07_16",
-        "p07_17"
-      ],
-      "specific_policy_ids": [
-        "p07_05"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c07",
       "district": "坪林",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p07_01",
-        "p07_02",
-        "p07_03",
-        "p07_04",
-        "p07_05",
-        "p07_06",
-        "p07_07",
-        "p07_12",
-        "p07_14",
-        "p07_15",
-        "p07_16",
-        "p07_17"
-      ],
-      "specific_policy_ids": [
-        "p07_05",
         "p07_14"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
-    },
-    {
-      "candidate_id": "c07",
-      "district": "烏來",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p07_01",
-        "p07_02",
-        "p07_03",
-        "p07_04",
-        "p07_05",
-        "p07_06",
-        "p07_07",
-        "p07_12",
-        "p07_14",
-        "p07_15",
-        "p07_16",
-        "p07_17"
-      ],
-      "specific_policy_ids": [
-        "p07_05",
-        "p07_14"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
-    },
-    {
-      "candidate_id": "c08",
-      "district": "新店",
-      "event_policy": "僅全區／全市方向",
-      "policy_ids": [
-        "p08_01",
-        "p08_02",
-        "p08_04",
-        "p08_05",
-        "p08_06"
       ],
       "specific_policy_ids": [],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
+    },
+    {
+      "candidate_id": "c07",
+      "district": "烏來",
+      "event_policy": "有具名地點或區域提案",
+      "policy_ids": [
+        "p07_14"
+      ],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
+    },
+    {
+      "candidate_id": "c08",
+      "district": "新店",
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c08",
       "district": "深坑",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p08_01",
-        "p08_02",
-        "p08_03",
-        "p08_04",
-        "p08_05",
-        "p08_06",
         "p08_07"
       ],
-      "specific_policy_ids": [
-        "p08_03",
-        "p08_07"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c08",
       "district": "石碇",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p08_01",
-        "p08_02",
-        "p08_03",
-        "p08_04",
-        "p08_05",
-        "p08_06",
-        "p08_07"
-      ],
-      "specific_policy_ids": [
-        "p08_03",
-        "p08_07"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c08",
       "district": "坪林",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p08_01",
-        "p08_02",
-        "p08_03",
-        "p08_04",
-        "p08_05",
-        "p08_06",
-        "p08_07"
+        "p08_03"
       ],
-      "specific_policy_ids": [
-        "p08_03",
-        "p08_07"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c08",
       "district": "烏來",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p08_01",
-        "p08_02",
-        "p08_03",
-        "p08_04",
-        "p08_05",
-        "p08_06",
-        "p08_07"
+        "p08_03"
       ],
-      "specific_policy_ids": [
-        "p08_03",
-        "p08_07"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c09",
       "district": "新店",
       "event_policy": "有具名地點或區域提案",
       "policy_ids": [
-        "p09_01",
-        "p09_02",
         "p09_03",
         "p09_04",
-        "p09_05",
-        "p09_06",
-        "p09_07",
-        "p09_08",
-        "p09_09",
-        "p09_10",
-        "p09_11",
-        "p09_12",
-        "p09_13"
+        "p09_11"
       ],
       "specific_policy_ids": [
-        "p09_04",
-        "p09_11",
-        "p09_12",
-        "p09_13"
+        "p09_04"
       ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c09",
       "district": "深坑",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p09_01",
-        "p09_02",
-        "p09_03",
-        "p09_05",
-        "p09_06",
-        "p09_07",
-        "p09_08",
-        "p09_09",
-        "p09_10",
-        "p09_13"
-      ],
-      "specific_policy_ids": [
-        "p09_13"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c09",
       "district": "石碇",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p09_01",
-        "p09_02",
-        "p09_03",
-        "p09_05",
-        "p09_06",
-        "p09_07",
-        "p09_08",
-        "p09_09",
-        "p09_10",
-        "p09_13"
-      ],
-      "specific_policy_ids": [
-        "p09_13"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c09",
       "district": "坪林",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p09_01",
-        "p09_02",
-        "p09_03",
-        "p09_05",
-        "p09_06",
-        "p09_07",
-        "p09_08",
-        "p09_09",
-        "p09_10",
-        "p09_13"
-      ],
-      "specific_policy_ids": [
-        "p09_13"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     },
     {
       "candidate_id": "c09",
       "district": "烏來",
-      "event_policy": "有具名地點或區域提案",
-      "policy_ids": [
-        "p09_01",
-        "p09_02",
-        "p09_03",
-        "p09_05",
-        "p09_06",
-        "p09_07",
-        "p09_08",
-        "p09_09",
-        "p09_10",
-        "p09_13"
-      ],
-      "specific_policy_ids": [
-        "p09_13"
-      ],
-      "note": "非政見品質或施政表現評分；無僅指本場來源範圍。"
+      "event_policy": "本場未明確提及該區政策",
+      "policy_ids": [],
+      "specific_policy_ids": [],
+      "note": "僅列本政策明確指定的地區；全市性、未指定地區與待核音地名不自動分配。非政策品質或施政表現評分。"
     }
   ],
   "transcript_ledger": [
@@ -10809,7 +10318,8 @@
         "c05"
       ],
       "policy_ids": [
-        "p05_07"
+        "p05_07",
+        "p05_08"
       ],
       "fact_check_ids": [],
       "review_class": "政策／價值主張",
@@ -10822,7 +10332,8 @@
         "c05"
       ],
       "policy_ids": [
-        "p05_07"
+        "p05_07",
+        "p05_08"
       ],
       "fact_check_ids": [],
       "review_class": "政策／價值主張",

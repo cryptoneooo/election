@@ -260,6 +260,7 @@ export default function MapView() {
     for (const d of DISTRICTS) {
       map[d] = filteredPolicies.filter((p) => p.districts.includes(d));
     }
+    map['全市性／未指定地區'] = filteredPolicies.filter((p) => p.districts.length === 0);
     return map;
   }, [filteredPolicies]);
 
@@ -359,7 +360,7 @@ export default function MapView() {
 
       {/* Policy list by district */}
       <div className="page-container" style={{ paddingTop: 0 }}>
-        {(districtFilter ? [districtFilter] : [...DISTRICTS]).map((d) => {
+        {(districtFilter ? [districtFilter] : [...DISTRICTS, '全市性／未指定地區']).map((d) => {
           const dPolicies = policiesByDistrict[d];
           if (!dPolicies || dPolicies.length === 0) return null;
           return (
