@@ -57,7 +57,7 @@ export interface Policy {
   districts: string[];
   geographic_scope: string;
   location_ids: string[];
-  stage: string;
+  stage?: string;
   source_ids: string[];
   transcript_paragraphs: number[];
   timecode: string | null;
