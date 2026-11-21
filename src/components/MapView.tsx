@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import {
@@ -8,9 +8,9 @@ import {
   getAllCandidates,
   getAllPlaces,
   getPlacesWithGeometry,
-  getPoliciesForDistrict,
 } from '@/lib/data';
 import { DISTRICTS, TOPIC_ICONS, getPartyCode } from '@/lib/types';
+import districtGeoJSON from '@/data/districts.geojson.json';
 
 // District approximate centers for map view
 const DISTRICT_CENTERS: Record<string, [number, number]> = {
@@ -21,12 +21,208 @@ const DISTRICT_CENTERS: Record<string, [number, number]> = {
   '烏來': [24.8654, 121.5505],
 };
 
+const DISTRICT_COLORS: Record<string, string> = {
+  '新店': '#e67e22',
+  '深坑': '#3498db',
+  '石碇': '#2ecc71',
+  '坪林': '#9b59b6',
+  '烏來': '#e74c3c',
+};
+
+function LeafletMap({
+  districtFilter,
+  onDistrictClick,
+  policiesByDistrict,
+}: {
+  districtFilter: string | null;
+  onDistrictClick: (d: string | null) => void;
+  policiesByDistrict: Record<string, { length: number }>;
+}) {
+  const mapRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<any>(null);
+  const layersRef = useRef<any[]>([]);
+
+  useEffect(() => {
+    if (!mapRef.current || mapInstanceRef.current) return;
+
+    let cancelled = false;
+
+    (async () => {
+      const L = (await import('leaflet')).default;
+      await import('leaflet/dist/leaflet.css');
+
+      if (cancelled || !mapRef.current) return;
+
+      const map = L.map(mapRef.current, {
+        center: [24.92, 121.58],
+        zoom: 11,
+        zoomControl: true,
+        attributionControl: true,
+        scrollWheelZoom: true,
+        dragging: true,
+      });
+
+      // Dark tile layer for GTA aesthetic
+      L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        {
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+          subdomains: 'abcd',
+          maxZoom: 16,
+        }
+      ).addTo(map);
+
+      // Add district boundaries
+      const geoLayer = L.geoJSON(districtGeoJSON as any, {
+        style: (feature: any) => {
+          const name = feature?.properties?.name || '';
+          const isSelected = districtFilter === name;
+          const color = DISTRICT_COLORS[name] || '#e67e22';
+          return {
+            color: isSelected ? '#f5f0e8' : color,
+            weight: isSelected ? 3 : 2,
+            opacity: 0.9,
+            fillColor: color,
+            fillOpacity: isSelected ? 0.35 : 0.15,
+          };
+        },
+        onEachFeature: (feature: any, layer: any) => {
+          const name = feature?.properties?.name || '';
+          const count =
+            (policiesByDistrict as any)[name]?.length ?? 0;
+
+          layer.bindTooltip(
+            `<div style="font-weight:800;font-size:14px;">${name}</div>
+             <div style="font-size:12px;">${count} 項政見</div>`,
+            {
+              permanent: false,
+              direction: 'center',
+              className: 'district-tooltip',
+            }
+          );
+
+          layer.on('click', () => {
+            onDistrictClick(districtFilter === name ? null : name);
+          });
+
+          layersRef.current.push(layer);
+        },
+      }).addTo(map);
+
+      // Add district labels
+      for (const [name, center] of Object.entries(DISTRICT_CENTERS)) {
+        const count =
+          (policiesByDistrict as any)[name]?.length ?? 0;
+        const icon = L.divIcon({
+          className: 'district-label',
+          html: `<div style="
+            color: #f5f0e8;
+            font-weight: 800;
+            font-size: 13px;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 0 8px rgba(0,0,0,0.6);
+            text-align: center;
+            pointer-events: none;
+            white-space: nowrap;
+          ">
+            ${name}<br/>
+            <span style="font-size:10px;font-weight:400;opacity:0.8;">${count} 項政見</span>
+          </div>`,
+          iconSize: [80, 30],
+          iconAnchor: [40, 15],
+        });
+        L.marker(center, { icon, interactive: false }).addTo(map);
+      }
+
+      mapInstanceRef.current = map;
+
+      // Fit bounds to all districts
+      map.fitBounds(geoLayer.getBounds().pad(0.05));
+    })();
+
+    return () => {
+      cancelled = true;
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.remove();
+        mapInstanceRef.current = null;
+      }
+      layersRef.current = [];
+    };
+  }, []); // only mount once
+
+  // Update styles when filter changes
+  useEffect(() => {
+    if (!mapInstanceRef.current) return;
+    layersRef.current.forEach((layer) => {
+      const name = layer.feature?.properties?.name || '';
+      const isSelected = districtFilter === name;
+      const color = DISTRICT_COLORS[name] || '#e67e22';
+      layer.setStyle({
+        color: isSelected ? '#f5f0e8' : color,
+        weight: isSelected ? 3 : 2,
+        opacity: 0.9,
+        fillColor: color,
+        fillOpacity: isSelected ? 0.35 : 0.15,
+      });
+    });
+
+    // Pan to selected district
+    if (districtFilter && DISTRICT_CENTERS[districtFilter]) {
+      mapInstanceRef.current.flyTo(
+        DISTRICT_CENTERS[districtFilter],
+        12,
+        { duration: 0.5 }
+      );
+    } else {
+      // Reset to full view
+      const bounds = layersRef.current.reduce(
+        (b: any, l: any) => b.extend(l.getBounds()),
+        (mapInstanceRef.current as any).L
+          ? new (mapInstanceRef.current as any).L.LatLngBounds()
+          : null
+      );
+      if (layersRef.current.length > 0) {
+        try {
+          const L = require('leaflet');
+          const allBounds = new L.LatLngBounds(
+            layersRef.current.map((l: any) => l.getBounds())
+          );
+          mapInstanceRef.current.flyToBounds(allBounds.pad(0.05), {
+            duration: 0.5,
+          });
+        } catch {
+          // ignore
+        }
+      }
+    }
+  }, [districtFilter]);
+
+  return (
+    <div
+      ref={mapRef}
+      style={{
+        height: '350px',
+        width: '100%',
+        borderRadius: 'var(--radius-md)',
+        border: '2px solid var(--border)',
+        overflow: 'hidden',
+      }}
+    />
+  );
+}
+
 export default function MapView() {
   const searchParams = useSearchParams();
   const initialDistrict = searchParams.get('district');
-  const [districtFilter, setDistrictFilter] = useState<string | null>(initialDistrict);
+  const [districtFilter, setDistrictFilter] = useState<string | null>(
+    initialDistrict
+  );
   const [topicFilter, setTopicFilter] = useState<string | null>(null);
-  const [mapReady, setMapReady] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const policies = getAllPolicies();
   const candidates = getAllCandidates();
@@ -57,7 +253,10 @@ export default function MapView() {
     <div className="animate-in">
       {/* Header */}
       <div className="page-container" style={{ paddingBottom: '0.5rem' }}>
-        <h1 className="gta-title" style={{ fontSize: '1.5rem', margin: '0 0 0.75rem' }}>
+        <h1
+          className="gta-title"
+          style={{ fontSize: '1.5rem', margin: '0 0 0.75rem' }}
+        >
           政見地圖
         </h1>
 
@@ -73,7 +272,9 @@ export default function MapView() {
             <button
               key={d}
               className={`filter-chip ${districtFilter === d ? 'filter-chip--active' : ''}`}
-              onClick={() => setDistrictFilter(districtFilter === d ? null : d)}
+              onClick={() =>
+                setDistrictFilter(districtFilter === d ? null : d)
+              }
             >
               {d}
             </button>
@@ -92,84 +293,54 @@ export default function MapView() {
             <button
               key={t}
               className={`filter-chip ${topicFilter === t ? 'filter-chip--active' : ''}`}
-              onClick={() => setTopicFilter(topicFilter === t ? null : t)}
+              onClick={() =>
+                setTopicFilter(topicFilter === t ? null : t)
+              }
             >
               {TOPIC_ICONS[t] || '📌'} {t}
             </button>
           ))}
         </div>
 
-        <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: '0' }}>
+        <p
+          style={{
+            fontSize: '0.8rem',
+            color: 'var(--text-muted)',
+            margin: '0',
+          }}
+        >
           共 {filteredPolicies.length} 項政見
-          {placesWithGeo.length > 0 && ` · ${placesWithGeo.length} 個地點有座標`}
+          {placesWithGeo.length > 0 &&
+            ` · ${placesWithGeo.length} 個地點有座標`}
         </p>
       </div>
 
-      {/* Map placeholder - real Leaflet requires browser-only rendering */}
-      <div
-        style={{
-          height: '300px',
-          background: 'linear-gradient(135deg, var(--gta-charcoal) 0%, var(--gta-dark) 100%)',
-          border: '2px solid var(--border)',
-          borderRadius: 'var(--radius-md)',
-          margin: '0 1rem 1rem',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          position: 'relative',
-          overflow: 'hidden',
-        }}
-      >
-        {/* District grid visualization */}
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
-            gap: '0.5rem',
-            padding: '1rem',
-            width: '100%',
-            maxWidth: '400px',
-          }}
-        >
-          {DISTRICTS.map((d) => {
-            const count = policiesByDistrict[d]?.length ?? 0;
-            const isSelected = districtFilter === d;
-            return (
-              <button
-                key={d}
-                onClick={() => setDistrictFilter(isSelected ? null : d)}
-                style={{
-                  background: isSelected
-                    ? 'rgba(230,126,34,0.3)'
-                    : 'rgba(255,255,255,0.05)',
-                  border: `2px solid ${isSelected ? 'var(--gta-orange)' : 'var(--border)'}`,
-                  borderRadius: 'var(--radius-md)',
-                  padding: '0.75rem 0.5rem',
-                  color: isSelected ? 'var(--gta-orange)' : 'var(--text-secondary)',
-                  cursor: 'pointer',
-                  textAlign: 'center',
-                  transition: 'all 0.15s',
-                }}
-              >
-                <div style={{ fontWeight: 800, fontSize: '1rem' }}>{d}</div>
-                <div style={{ fontSize: '0.75rem', marginTop: '0.2rem' }}>
-                  {count} 項政見
-                </div>
-              </button>
-            );
-          })}
-        </div>
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '0.5rem',
-            right: '0.75rem',
-            fontSize: '0.65rem',
-            color: 'var(--text-muted)',
-          }}
-        >
-          互動式地圖開發中 · 目前僅 {placesWithGeo.length} 個地點有座標
-        </div>
+      {/* Interactive Map */}
+      <div style={{ margin: '0 1rem 1rem' }}>
+        {isClient ? (
+          <LeafletMap
+            districtFilter={districtFilter}
+            onDistrictClick={setDistrictFilter}
+            policiesByDistrict={policiesByDistrict}
+          />
+        ) : (
+          <div
+            style={{
+              height: '350px',
+              background:
+                'linear-gradient(135deg, var(--gta-charcoal) 0%, var(--gta-dark) 100%)',
+              border: '2px solid var(--border)',
+              borderRadius: 'var(--radius-md)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: 'var(--text-muted)',
+              fontSize: '0.9rem',
+            }}
+          >
+            地圖載入中...
+          </div>
+        )}
       </div>
 
       {/* Policy list by district */}
@@ -189,12 +360,33 @@ export default function MapView() {
                   gap: '0.5rem',
                 }}
               >
-                📍 {d}
-                <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 400 }}>
+                <span
+                  style={{
+                    display: 'inline-block',
+                    width: '10px',
+                    height: '10px',
+                    borderRadius: '50%',
+                    background: DISTRICT_COLORS[d] || '#e67e22',
+                  }}
+                />{' '}
+                {d}
+                <span
+                  style={{
+                    fontSize: '0.8rem',
+                    color: 'var(--text-muted)',
+                    fontWeight: 400,
+                  }}
+                >
                   {dPolicies.length} 項政見
                 </span>
               </h2>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '0.5rem',
+                }}
+              >
                 {dPolicies.map((p) => {
                   const cand = candidateMap.get(p.candidate_id);
                   return (
@@ -203,7 +395,10 @@ export default function MapView() {
                       href={`/candidates/${p.candidate_id}`}
                       style={{ textDecoration: 'none' }}
                     >
-                      <div className="gta-card" style={{ padding: '0.6rem 0.75rem' }}>
+                      <div
+                        className="gta-card"
+                        style={{ padding: '0.6rem 0.75rem' }}
+                      >
                         <div
                           style={{
                             display: 'flex',
@@ -223,8 +418,11 @@ export default function MapView() {
                           </span>
                           {cand && (
                             <span
-                              className={`party-badge party-badge--${cand.party}`}
-                              style={{ fontSize: '0.65rem', padding: '1px 6px' }}
+                              className={`party-badge party-badge--${getPartyCode(cand.party)}`}
+                              style={{
+                                fontSize: '0.65rem',
+                                padding: '1px 6px',
+                              }}
                             >
                               {cand.ballot_number} {cand.name}
                             </span>
