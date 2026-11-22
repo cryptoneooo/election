@@ -72,6 +72,7 @@ export interface Policy {
   implementation_note: string;
   fact_check_ids: string[];
   map_display: string;
+  transcript_text?: string;
 }
 
 export interface Place {

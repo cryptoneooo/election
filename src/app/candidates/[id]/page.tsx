@@ -7,6 +7,7 @@ import {
   getFactChecksForCandidate,
 } from '@/lib/data';
 import { VERDICT_CONFIG, TOPIC_ICONS, getPartyCode, getPartyShort } from '@/lib/types';
+import TranscriptBlock from '@/components/TranscriptBlock';
 
 export function generateStaticParams() {
   return getAllCandidates().map((c) => ({ id: c.id }));
@@ -193,6 +194,9 @@ export default async function CandidateDetailPage({
                         ))}
                         {p.stage && <span>· {p.stage}</span>}
                       </div>
+                      {p.transcript_text && (
+                        <TranscriptBlock text={p.transcript_text} />
+                      )}
                       {p.fact_check_ids.length > 0 && (
                         <div style={{ marginTop: '0.5rem', display: 'flex', gap: '0.25rem', flexWrap: 'wrap' }}>
                           {p.fact_check_ids.map((fcId) => {
