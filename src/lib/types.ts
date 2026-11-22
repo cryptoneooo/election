@@ -20,6 +20,13 @@ export interface Candidate {
     render_status: string;
   };
   source_ids: string[];
+  bulletin?: {
+    gender: string | null;
+    birthdate: string | null;
+    education: string[];
+    experience: string[];
+    source: string;
+  };
 }
 
 export type VerdictKey =

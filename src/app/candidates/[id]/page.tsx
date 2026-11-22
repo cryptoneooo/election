@@ -101,6 +101,50 @@ export default async function CandidateDetailPage({
         </div>
       </section>
 
+      {/* Bulletin - 選舉公報 */}
+      {candidate.bulletin && (candidate.bulletin.education?.length > 0 || candidate.bulletin.experience?.length > 0) && (
+        <section style={{ marginBottom: '1.5rem' }}>
+          <h2 className="gta-subtitle" style={{ fontSize: '1rem', margin: '0 0 0.5rem' }}>
+            📋 選舉公報
+          </h2>
+          <div className="gta-card" style={{ padding: '0.75rem 1rem' }}>
+            {candidate.bulletin.birthdate && (
+              <p style={{ margin: '0 0 0.4rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                <span style={{ color: 'var(--gta-ochre)', fontWeight: 600 }}>出生年月日：</span>
+                {candidate.bulletin.birthdate}
+              </p>
+            )}
+            {candidate.bulletin.education && candidate.bulletin.education.length > 0 && (
+              <div style={{ marginBottom: '0.5rem' }}>
+                <p style={{ margin: '0 0 0.25rem', fontSize: '0.85rem', color: 'var(--gta-ochre)', fontWeight: 600 }}>
+                  學歷
+                </p>
+                <ul style={{ margin: 0, paddingLeft: '1.2rem', fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+                  {candidate.bulletin.education.map((e: string, i: number) => (
+                    <li key={i}>{e}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {candidate.bulletin.experience && candidate.bulletin.experience.length > 0 && (
+              <div>
+                <p style={{ margin: '0 0 0.25rem', fontSize: '0.85rem', color: 'var(--gta-ochre)', fontWeight: 600 }}>
+                  經歷
+                </p>
+                <ul style={{ margin: 0, paddingLeft: '1.2rem', fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+                  {candidate.bulletin.experience.map((e: string, i: number) => (
+                    <li key={i}>{e}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <p style={{ margin: '0.5rem 0 0', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+              資料來源：{candidate.bulletin.source || '選舉公報'}
+            </p>
+          </div>
+        </section>
+      )}
+
       {isAbsent ? (
         <div
           style={{
