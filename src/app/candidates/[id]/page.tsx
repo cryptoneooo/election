@@ -145,7 +145,7 @@ export default async function CandidateDetailPage({
         </section>
       )}
 
-      {isAbsent ? (
+      {isAbsent && policies.length === 0 ? (
         <div
           style={{
             textAlign: 'center',
@@ -159,6 +159,15 @@ export default async function CandidateDetailPage({
         </div>
       ) : (
         <>
+          {/* Absent note if applicable */}
+          {isAbsent && (
+            <div className="gta-card" style={{ marginBottom: '1rem', padding: '0.6rem 1rem', background: 'rgba(230,126,34,0.1)', borderLeft: '3px solid #e67e22' }}>
+              <p style={{ margin: 0, fontSize: '0.82rem', color: 'var(--text-secondary)' }}>
+                ⚠ {candidate.attendance_note || '此候選人未出席公辦政見發表會。'}以下政見整理自選舉公報。
+              </p>
+            </div>
+          )}
+
           {/* Stats */}
           <div style={{ display: 'flex', gap: '1rem', marginBottom: '1.5rem' }}>
             <div className="gta-card" style={{ flex: 1, textAlign: 'center', padding: '0.75rem' }}>
@@ -238,9 +247,11 @@ export default async function CandidateDetailPage({
                         ))}
                         {p.stage && <span>· {p.stage}</span>}
                       </div>
-                      {p.transcript_text && (
+                      {p.source === 'bulletin' && p.bulletin_text ? (
+                        <TranscriptBlock text={p.bulletin_text} variant="bulletin" />
+                      ) : p.transcript_text ? (
                         <TranscriptBlock text={p.transcript_text} />
-                      )}
+                      ) : null}
                       {p.fact_check_ids.length > 0 && (
                         <div style={{ marginTop: '0.5rem', display: 'flex', gap: '0.25rem', flexWrap: 'wrap' }}>
                           {p.fact_check_ids.map((fcId) => {

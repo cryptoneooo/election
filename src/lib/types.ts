@@ -80,6 +80,8 @@ export interface Policy {
   fact_check_ids: string[];
   map_display: string;
   transcript_text?: string;
+  bulletin_text?: string;
+  source?: string; // 'speech' | 'bulletin'
 }
 
 export interface Place {
